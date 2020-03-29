@@ -21,7 +21,7 @@ h3.ba-cup-title {
   margin: 15px 0 15px;
 }
 
-.ba-price {
+.ba-cup-price {
   font-family: 'Dosis', sans-serif;
   font-size: 70px;
   font-weight: 700;
@@ -98,9 +98,12 @@ textarea {
   -webkit-box-shadow: 0px 3px 5px -3px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 3px 5px -3px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 3px 5px -3px rgba(0, 0, 0, 0.75);
+  text-decoration: none;
+  color: #333333;
+  transition: padding 0.1s ease-in;
 }
 
-.ba-price {
+.ba-cup-price {
   margin: 0 0 10px;
   color: #02995b;
 }
@@ -118,25 +121,13 @@ textarea {
   text-align: center;
 }
 
-.ba-cup-gold {
+.ba-cup-active {
   padding: 40px 0 50px;
 }
 
-.ba-cup-gold .ba-price {
+.ba-cup-active .ba-cup-price {
   margin: 0 0 20px;
 }
-.ba-cup-gold .ba-cup-title {
+.ba-cup-active .ba-cup-title {
   margin: 22px 0 20px;
-}
-
-@media screen and (max-width: 1199px) {
-  .ba-cup-gold {
-    padding: 20px 0 36px;
-  }
-  .ba-cup-gold .ba-price {
-    margin: 0 0 10px;
-  }
-  .ba-cup-gold .ba-cup-title {
-    margin: 15px 0;
-  }
 }
