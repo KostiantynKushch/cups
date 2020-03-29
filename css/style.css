@@ -131,3 +131,15 @@ textarea {
 .ba-cup-active .ba-cup-title {
   margin: 22px 0 20px;
 }
+
+@media screen and (max-width: 1199px) {
+  .ba-cup-active {
+    padding: 20px 0 36px;
+  }
+  .ba-cup-active .ba-cup-price {
+    margin: 0 0 10px;
+  }
+  .ba-cup-active .ba-cup-title {
+    margin: 15px 0;
+  }
+}
